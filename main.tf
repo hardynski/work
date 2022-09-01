@@ -11,5 +11,5 @@ terraform {
 }
 
 module "vpc-dev" {
-    source = "git@github.com:hardynski/work.git//aws_vpc"
+    source = "./aws_vpc"
 }
